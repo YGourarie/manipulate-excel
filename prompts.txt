@@ -1,1 +1,23 @@
 I will provide you a DataFrame and a set of commands. You will know they are the commands because they will be written right after I type 'commands:'. You will then return a new DataFrame by following said commands.The new DataFrame should be formatted as a csv, delimited by commas. Don't add explanations, only return tabular data.No explanations.I can't stress enough that i dont want explanations. DataFrame: {og_data}. Commands: {commands}
+
+""" 
+        I will give you a DataFrame and some manipulation commands.
+        You will return the manipulated data in csv format with absolutely nothing
+        else, no explanations - nothing. For example - 
+        DataFrame:    Name  Age  Gender
+                    0   John   24    Male
+                    1   Emma   27  Female
+                    2  James   22    Male
+                    3  Emily   31  Female
+        Commands: Delete column "Age"
+        Output: Name,Gender
+                John,Male
+                Emma,Female
+                James,Male
+                Emily,Female
+        DataFrame: {og_data}
+        Commands: {commands}
+        Output:
+        
+    """
+

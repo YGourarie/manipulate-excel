@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from pandas import DataFrame,Series
 import openai
 from io import StringIO
 import os
